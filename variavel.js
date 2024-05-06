@@ -26,13 +26,15 @@ if(true)
 }
 */
 //------------------------------------------------------//
-
-//const
+/*
+//const  variavel de escopo
 
 cont nome = "constante";
 if(true)
 {
-    cont nome = "jesus"// não aceita redeclaração.não aceita sobreescrita //
+    cont nome = "jesus"// não aceita redeclaração.não aceita sobreescrita//
 }
 nome = "silva";
 console.log(nome)
+*/
+//-----------------------------------------------------//
