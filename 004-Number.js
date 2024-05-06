@@ -34,7 +34,20 @@ console.log(typeof number , number)
 
 //===============================================================//
 
+/*
 //converte usando paseint
 var n = "29"
 console.log(typeof n , n)
 console.log(typeof parseInt(n) , parseInt(n))
+*/
+
+//===============================================================//
+
+/*
+//converte usando passe float
+var n = "29,23"
+console.log(typeof n , n)
+console.log(typeof parseFloat(n) , parseFloat(n))
+*/
+
+//===============================================================//
