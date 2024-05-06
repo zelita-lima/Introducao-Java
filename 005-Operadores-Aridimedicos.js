@@ -43,6 +43,7 @@
 
    //------------------------------------------------------//
 
+   /*
    //operadores aridimedicos multiplicação
    let v1 = 10
    let v2 = 5
@@ -50,3 +51,6 @@
    console.log("O resultado da multiplicação e :",v1 * v2)
    console.log("O resultado da multiplicação e :"+multiplicação)
    console.log("O resultado da multiplicação e :"+Number(v1 * v2))
+   */
+
+   //------------------------------------------------------//
