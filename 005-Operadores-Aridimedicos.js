@@ -88,6 +88,7 @@
 
     //------------------------------------------------------//
 
+    /*
     //operadores aridimedicos decremento
    let base = 2;
    let expoente = 3
@@ -96,9 +97,9 @@
    console.log("o resultado do expoente e:",base ** expoente)
    console.log("o resultado do expoente e:",Number(base ** expoente))
 
-   /*
   base: Esta é a base da operação de potência. É o número que está sendo elevado à potência.
   expoente: Este é o expoente ao qual a base será elevada. Ele especifica quantas vezes a base será multiplicada por ela mesma.
   base ** expoente: Esta é a expressão que calcula a potência. Ela eleva a base ao expoente especificado.
  */
    
+  //------------------------------------------------------//
