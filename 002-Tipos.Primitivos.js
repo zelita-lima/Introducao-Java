@@ -1,5 +1,5 @@
 var nome = "pai?"
-var numero = 37
+var numero = "37"
 var letra = 'Z'
 var decimal = 112
 var logico = true
