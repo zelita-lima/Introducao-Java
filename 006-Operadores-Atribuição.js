@@ -7,7 +7,7 @@
 */
 //encremento
 /*
-let valor = 2
+let valor = 2 
 console.log(valor)  
 valor += 1
 console.log(valor)
