@@ -37,6 +37,8 @@ if (!(e < f || e == f)) {
 
 //___________________________________________________________________________________________________________//
 /*
+
+// o da colega 
 // Operador E lógico (&&)
 // Retorna verdadeiro se ambos os operandos forem verdadeiros.
 // Exemplo: (a && b) é verdadeiro somente se tanto 'a' quanto 'b' forem verdadeiros.
