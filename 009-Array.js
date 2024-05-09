@@ -58,9 +58,9 @@ console.log(arraylength)   //saida [1,2,3]  /// tira um item no final da lista
 
 //remove o item na posição do indice
 var array6 = [1,2,3,4,5]
-var index = 2;
+var indece = 2;
 var newValue = 3
-array6.splice(index,1,newValue);
+array6.splice(indece,1,newValue);
 console.log(array6)
 
 //___________________________________________________________________________________________________________//
