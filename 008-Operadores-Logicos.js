@@ -13,6 +13,8 @@ if (a >= b && a === b) {
     console.log("a não é maior e igual a b");
 }
 
+//___________________________________________________________________________________________________________//
+
 let c = 8;
 let d = 7;
 //OU(OR)
@@ -21,6 +23,8 @@ if (c >= d || c === d) {
 } else {                                    //ou memso do portugol uma da centeça tem que ser verdaeira 
     console.log("c não é maior ou igual a d");
 }
+
+//___________________________________________________________________________________________________________//
 
 let e = 9;
 let f = 7;
