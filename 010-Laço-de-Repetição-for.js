@@ -21,7 +21,7 @@ for (let i = 0; i < frutas.length; i++) {
 const pessoa = {
     Nome: 'Zelita',
     Sobrenome: 'lima',
-    Idade: 30
+    Idade: 18
   };
   
   
@@ -37,7 +37,7 @@ for (let key in pessoa) {
 
   for (let i = 0; i < 10; i++) {
     if (i === 5) {
-      break;
+      break;//serve para parar um laço de repetição
     }
     console.log(i);
   }
