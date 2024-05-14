@@ -83,21 +83,17 @@ class Produto
 const t = new total(this.total)
 Pt.Apresentar();*/
 //5-Crie uma classe Carro com propriedades marca, modelo e ano e um método para exibir todas as informações do carro.//
-class Carro
-{
-    constructor(marca,modelo,ano){
-        this.marca = marca;
-        this.modelo = modelo;
-        this.ano = ano;
+class Carro {
+    constructor(marca, modelo, ano) {
+      this.marca = marca;
+      this.modelo = modelo;
+      this.ano = ano;
     }
-    Apresentar()
-    {
-        console.log("O seu carro e :",this.modelo,"A marca e:",this.marca,"O ano do seu carro e :",this.ano)
+    
+    Apresentar() {
+      console.log("O carro é:", this.modelo, "A marca é:", this.marca, "O ano do carro é:", this.ano);
     }
-
-}
-const C2 = new Carro("civic" , "honda" , 2005)
-C2.Apresentar();
+  }
 //6-Crie uma classe Aluno com propriedades nome, matricula, notas (array) e um método para calcular a média das notas.
 class Aluno
 {
