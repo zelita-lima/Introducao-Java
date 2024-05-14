@@ -66,22 +66,7 @@ class ContaBancaria
 const C = new ContaBancaria(2 , "Zelita")
 C.Apresentar();
 //4-Crie uma classe Produto com propriedades nome, preco e quantidade e métodos para calcular o valor total do produto (preço * quantidade).//
-class Produto
-{
-    constructor(Nome,preco,quantidade){
-        this.Nome = Nome;
-        this.preco = preco
-        this.quantidade = quantidade
-        this,total = preco * quantidade
-    Apresentar()
-    {
-        console.log("O seu nome e:",this.Nome,"A quantidade e :",this.quantidade,"O preço e :",this.preco)
-    }
 
-}
-/*const p = new Produto("zelita" , 3 , 2 )
-const t = new total(this.total)
-Pt.Apresentar();*/
 //5-Crie uma classe Carro com propriedades marca, modelo e ano e um método para exibir todas as informações do carro.//
 class Carro {
     constructor(marca, modelo, ano) {
@@ -110,3 +95,19 @@ class Aluno
 }
 const C2 = new Carro("civic" , "honda" , 2005)
 C2.Apresentar();
+//7-Crie uma classe Animal com propriedades nome e tipo e um método para exibir uma mensagem com o nome e o tipo do animal.//
+class Animal
+{
+    constructor(nome,tipo,notas){
+        this.nome = nome;
+        this.tipo = tipo;
+        this.notas = notas;
+    }
+    Apresentar()
+    {
+        console.log("O seu animal e :",this.nome,"O tipo e:",this.tipo)
+    }
+
+}
+const A = new Animal("onça" , "pintada")
+A.Apresentar();
