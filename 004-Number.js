@@ -10,7 +10,7 @@ console.log(typeof idade , idade + 1)
 //------------------------------------------------------------------//
 
 /*
-var iade = "18"
+var idade = "18"
 console,console.log(type idade ,idade);//de string para numero//
 var iade 
 */
