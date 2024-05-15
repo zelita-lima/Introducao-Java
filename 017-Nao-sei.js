@@ -62,7 +62,7 @@ class Forma {
       console.log("Renderizando círculo...");
     }
   }
-  
+  a
   class Retangulo extends Forma {
     renderizar() {
       console.log("Renderizando retângulo...");

@@ -111,3 +111,64 @@ class Animal
 }
 const A = new Animal("onça" , "pintada")
 A.Apresentar();
+//8-Crie uma classe Triangulo com propriedades lado1, lado2 e lado3 e métodos para calcular a área e o perímetro do triângulo.//
+class Triangulo
+{
+    constructor(Lado1,Lado2,Lado3){
+        this.Lado1= Lado1;
+        this.Lado2 = Lado2;
+        this.Lado3 = Lado3;
+        this.Perimetro = Lado1 + Lado2 + Lado3 
+        this.Area = Lado1 * Lado2 * Lado3
+    }
+    Apresentar()
+    {
+        console.log("O primeiro lado e :",this.Lado1,"O segundo lado e:",this.Lado2,"O terceiro lado e:",this.Lado3)
+        console.log("O Perimetro e :",this.Perimetro)
+        console.log("O Area e :",this.Area)
+    }
+
+}
+const T = new Triangulo(2 , 3 , 2)
+T.Apresentar();
+//9-Crie uma classe Livro com propriedades titulo, autor e ano e um método para exibir todas as informações do livro.//
+class Livro
+{
+    constructor(titulo,autor,ano1){
+        this.titulo = titulo;
+        this.autor = autor;
+        this.ano1 = ano1;
+    }
+    Apresentar()
+    {
+        console.log("O seu livro e :",this.titulo,"O autor e :",this.autor,"O ano do livro e :",this.ano1)
+    }
+
+}
+const L = new Livro("O visconde que me amava" , "Julia quinn" , 2000)
+L.Apresentar()
+//10Crie uma classe Circulo com propriedade raio e métodos para calcular a área e o perímetro do círculo.//
+class Circulo
+{
+    constructor(Raio,pi){
+        this.Raio= Raio;
+        this.pi = 3,14;
+        this.Area2 = Raio * Raio * pi
+        this.Perimetro2 = 2 * Raio * pi
+    }
+    Apresentar()
+    {
+        console.log("O raio e :",this.Raio,)
+    }
+    Apresentar()
+    {
+        console.log("O Perimetro e :",this.Perimetro2)
+    }
+    Apresentar()
+    {
+        console.log("O Area e :",this.Area2)
+    }
+
+}
+const C4 = new Circulo(180)
+C4.Apresentar();
