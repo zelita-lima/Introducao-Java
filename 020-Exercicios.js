@@ -66,7 +66,17 @@ class ContaBancaria
 const C = new ContaBancaria(2 , "Zelita")
 C.Apresentar();
 //4-Crie uma classe Produto com propriedades nome, preco e quantidade e métodos para calcular o valor total do produto (preço * quantidade).//
+class Produto {
+    constructor(nome, preco, quantidade) {
+        this.nome = nome;
+        this.preco = preco;
+        this.quantidade = quantidade;
+    }
 
+    calcularTotal() {
+        return this.preco * this.quantidade;
+    }
+}
 //5-Crie uma classe Carro com propriedades marca, modelo e ano e um método para exibir todas as informações do carro.//
 class Carro {
     constructor(marca, modelo, ano) {
