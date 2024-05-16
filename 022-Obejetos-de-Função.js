@@ -37,7 +37,7 @@ console.log(resultadoDivisao); // Saída: 5
 
 //Arrow Functions: São uma forma mais concisa de escrever funções em JavaScript.
 //Exemplo:
-let quadrado = (x) => {
+let quadrado = (x) => { //so pra coisas simples
     return x * x;
 };
 
@@ -93,4 +93,3 @@ function somar(a, b) {
 }
 
 somar(3, 5); // Chamada da função e atribuição do resultado a uma variável
-
