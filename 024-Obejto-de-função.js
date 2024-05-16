@@ -6,8 +6,8 @@ function Pessoa() {
 }
 let pessoa1 = new Pessoa();
 
-pessoa1.nome = "Rodrigo"
-pessoa1.idade = 30
+pessoa1.nome = "Zelita"
+pessoa1.idade = 18
 pessoa1.estado_civil = "Solteiro"
 
 // Acessando propriedades dos objetos
